@@ -98,7 +98,7 @@ Converting a binary number to decimal is relatively straightforward.  Multiply e
 ### !challenge
 
 * type: number
-* id: 94d6c1b3-3cae-440e-81bd-524f59c91472
+* id: 4b1b923e-cb34-40bf-8389-c21326854985
 * title: What is 111 in decimal?
 * decimal: 1
 * points: 1

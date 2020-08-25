@@ -23,7 +23,7 @@ Add a `decimal_to_binary` method which converts a decimal number received as a p
 ### !challenge
 
 * type: testable-project
-* id: 1748785f-78ca-4ca4-8e2e-a1238dd461bf
+* id: 85378148-bd92-4da8-b877-2ba93f0e290d
 * title: Binary and Decimal Exercise
 * upstream: https://github.com/Ada-C14/binary-and-decimal
 * validate_fork: true
@@ -57,7 +57,7 @@ Place a link to your repository
 ### !challenge
 
 * type: short-answer
-* id: 0e8fcbba-03f3-4d2b-acef-1cef2765487b
+* id: 8b2c89f4-beb5-4e18-b80b-1b01dac17658
 * title: Pull Request
 <!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
 <!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
