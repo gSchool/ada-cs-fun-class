@@ -145,7 +145,7 @@ search(array, value_to_find)
 ### !challenge
 
 * type: short-answer
-* id: ee6fb3f4-7821-42d4-8ea7-80e05e732b22
+* id: f13a5783-fd2e-4213-a950-7ab81ad0e1c8
 * title: With an array of size 5, what situations will require the loop to execute the least times?
 * points: 1
 * topics: big-o
@@ -193,7 +193,7 @@ If the value being sought is at the beginning of the array, the loop will only e
 ### !challenge
 
 * type: short-answer
-* id: 78e8eb5a-4033-4f7b-938e-8bd8b146df10
+* id: b58dac47-f647-46f2-a102-2d4b1d75d9f8
 * title: With an array of size 5, what situations will require the loop to execute the most times?
 * points: 1
 * topics: big-o
@@ -242,7 +242,7 @@ If the value being sought is at the last element of the array, if the element is
 ### !challenge
 
 * type: short-answer
-* id: a9fe2857-85cf-46fa-a452-40de95a84f82
+* id: 5491fe8f-337c-4370-8974-73cce1d008f6
 * title: Now double the size of the array.  What happens to the number of times the loop executes in the worst-case?
 * points: 1
 * topics: big-o
@@ -282,7 +282,7 @@ If the array's size doubles the worst-case number of iterations also doubles.
 ### !challenge
 
 * type: short-answer
-* id: 500313de-1d5c-45b4-915a-78ca7e9532f9
+* id: 910051ea-b264-46af-870b-9878ec52afa6
 * title: Double the size of the array.  What happens to the number of times the loop executes in the best-case?
 * points: 1
 * topics: big-o

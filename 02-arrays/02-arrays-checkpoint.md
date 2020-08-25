@@ -6,7 +6,7 @@
 ### !challenge
 
 * type: testable-project
-* id: 7c4c5823-ef6d-4ad3-9cef-6c6a4b14b725
+* id: a173a1da-4898-4536-8f27-2999a21a89ac
 * title: Binary Numbers
 * upstream: https://github.com/Ada-C14/binary-and-decimal
 * validate_fork: true
@@ -40,7 +40,7 @@ Link to your repository
 ### !challenge
 
 * type: short-answer
-* id: 44bf51f6-53f6-44c0-b1ab-ddeba7b526fb
+* id: a15ad66b-f1fc-4611-a3b4-f012b48eae8e
 * title: Link to your PR
 * points: 0
 * topics: binary-numbers, arrays
