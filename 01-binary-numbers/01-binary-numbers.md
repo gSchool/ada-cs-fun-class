@@ -1,5 +1,6 @@
 # Introduction to Binary & Memory
 
+
 ## Prerequisites
 
 Before this first CS Fundamentals lesson, please read, view and complete the exercises on the following items:
