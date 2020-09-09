@@ -308,8 +308,7 @@ In this lesson we have
 
 ## Classwork
 
-- Complete [The Binary and Decimal assignment](https://github.com/Ada-C12/binary-and-decimal)
-- Complete [The Array Equals Assignment](https://github.com/Ada-C12/array-equals)
+- Complete [The Binary and Decimal assignment](https://github.com/Ada-C14/binary-and-decimal)
 
 ## Former Slide Deck
 
