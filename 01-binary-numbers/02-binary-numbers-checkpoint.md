@@ -1,5 +1,6 @@
 # Binary Numbers Exercise
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=d188b9c7-154e-4cef-aeae-ac31013c7cf0&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 **[Binary Numbers Exercise Repo](https://github.com/ada-c14/binary-and-decimal)**
 
