@@ -1,6 +1,8 @@
 # Binary Numbers Exercise
 
 
+**[Binary Numbers Exercise Repo](https://github.com/ada-c14/binary-and-decimal)**
+
 Author a method based on the binary to decimal algorithm you devised in class.
 
 ## Exercises
@@ -9,9 +11,9 @@ Write a method named `binary_to_decimal` that receives as input parameter an arr
 
 **Note:** Do not use Ruby functions. You may use `.length` method on the array and retrieve values at a particular index in the array. Author using the algorithm you devised in class.
 
-You may however write your own versions of these methods
+You may however write your own versions of these methods.
 
-**Due Date**  This assignment is due  **Monday September 14th**
+**Due Date**  This assignment is due  **Tuesday September 15th**
 
 ## Optional
 
@@ -32,7 +34,11 @@ Add a `decimal_to_binary` method which converts a decimal number received as a p
 
 ##### !question
 
+Fork the [repo](https://github.com/Ada-C14/binary-and-decimal) and clone it to your computer.
+
 Complete the `binary_to_decimal` method which converts an array containing binary digits to a decimal number.
+
+Then copy your results back up to your github account and click on the "Pull Request" button.
 
 ##### !end-question
 
@@ -59,8 +65,8 @@ Place a link to your repository
 * type: short-answer
 * id: 8b2c89f4-beb5-4e18-b80b-1b01dac17658
 * title: Pull Request
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 3
+* topics: cs-fun, binary numbers
 
 ##### !question
 
