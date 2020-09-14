@@ -233,7 +233,7 @@ Consider a physical phone book as an example to illustrate Big O notation for al
 - _O(1)_ – Find a random person’s phone number by flipping open any page in the phone book.
 - _O(log n)_ – Given a person’s name, find the corresponding phone number. This is using a binary search for a person’s phone number.
 - _O(n)_ – Find all people whose phone numbers contain the digit "5". This will require _linear_ scaning through the phone book.
-- _O(n log n)_ – Sort a phone book’s pages by looking at the first name on each page. See [the merge sort](Sorting.md) for understanding this further.
+- _O(n log n)_ – Sort a phone book’s pages by looking at the first name on each page. See [the merge sort](../03-sorting/sorting.md) for understanding this further.
 
 ## Exercises
 
