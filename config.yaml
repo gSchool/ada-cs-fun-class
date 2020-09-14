@@ -56,3 +56,15 @@ Standards:
         Type: Checkpoint
         UID: b3e5030f89373dae804212918d12cf94
         Path: /02-arrays-and-efficiency/02-arrays-checkpoint.md
+  -
+    Title: Sorting
+    Description: Putting Arrays in Order
+    UID: 92315227-a3d4-4183-96e0-55f73370ea01
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: f0467e93-fee5-4e8e-a4f8-a99f4761dd2b
+        Path: /03-sorting/sorting.md
+  
