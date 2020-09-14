@@ -47,8 +47,8 @@ Standards:
       -
         Type: Lesson
         UID: ece6a3da4a290866251b1bd78d1dbb37
-        Path: /02-arrays/01-arrays.md
+        Path: /02-arrays-and-efficiency/01-arrays.md
       -
         Type: Checkpoint
         UID: b3e5030f89373dae804212918d12cf94
-        Path: /02-arrays/02-arrays-checkpoint.md
+        Path: /02-arrays-and-efficiency/02-arrays-checkpoint.md
