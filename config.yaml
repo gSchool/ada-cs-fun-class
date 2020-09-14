@@ -39,7 +39,7 @@ Standards:
         Path: /01-binary-numbers/02-binary-numbers-checkpoint.md
   -
     Title: Arrays
-    Description: Arrays
+    Description: Arrays and Algorithmic Efficiency
     UID: ff43b8de4f41d5103405ddb62eb8d34e
     SuccessCriteria:
       - success criteria
@@ -48,6 +48,10 @@ Standards:
         Type: Lesson
         UID: ece6a3da4a290866251b1bd78d1dbb37
         Path: /02-arrays-and-efficiency/01-arrays.md
+      -
+        Type: Lesson
+        UID: 7c8ff3f2-77b1-4862-88c5-81a849ecd000
+        Path: /02-arrays-and-efficiency/02-efficiency.md
       -
         Type: Checkpoint
         UID: b3e5030f89373dae804212918d12cf94
