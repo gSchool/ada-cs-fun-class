@@ -593,9 +593,41 @@ After each iteration through the loop, we eliminate half of the remaining elemen
 
 Eventually, one or no elements will be left and we'll exit the loop.
 
-<details>
-  <summary>With a 5-element array like `[1, 2, 3, 4, 5]`, what is the worst-case number of comparisons you would need to make to find an element in the array?</summary>
-  If you were looking for `5` in the array, you would first compare 3, find out it's too small and search from index 3 to 4.  Next you would compare 4, and find it's also too small, and then finally compare 5, find the value and return true.  So **worst-case you would need 3 comparisions**.
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: a634e0d8-60b3-497d-9fb2-9b1929cec969
+* title: Binary Search
+* points: 1
+* topics: arrays, binary search, Big-O
+
+##### !question
+
+With a 5-element array like `[1, 2, 3, 4, 5]`, what is the worst-case number of comparisons you would need to make to find an element in the array?
+
+##### !end-question
+
+##### !placeholder
+
+Worst-case number of comparisons?  Enter a number
+
+##### !end-placeholder
+
+##### !answer
+
+/\d/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+If you were looking for `5` in the array, you would first compare 3, find out it's too small and search from index 3 to 4.  Next you would compare 4, and find it's also too small, and then finally compare 5, find the value and return true.  So **worst-case you would need 3 comparisions**.
 
   ![Binary Search Loop Table](images/binary-search-loop-table-5-elements.png)
 </details>
