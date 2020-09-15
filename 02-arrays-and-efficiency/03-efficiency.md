@@ -372,17 +372,6 @@ This method only creates two additional variables, `index` and `max` which does 
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-
-
-
-
-<details>
-  <summary>What is the runtime & space complexity of the above code segment?</summary>
-  The above segment has 1 loop which runs a number of times equal to the size of the input.  All the other code segments run regardless of the input, so the Big-O is O(n).
-
-  The method has an array which in the worst-case scenario will be equal to the length of the input array, so the algorithm has a space-complexity of O(n).
-</details>
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
@@ -451,10 +440,10 @@ The time complexity depends on the loop here which will increase proportionally 
 ### !challenge
 
 * type: multiple-choice
-* id: ed5a99f4-d287-46fd-91ba-4f991c3bb035
+* id: 49770843-57f6-4a75-ac76-49286058839c
 * title: Question 4
-<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
-<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+* points: 1
+* topics: Big-O
 
 ##### !question
 
