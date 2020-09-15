@@ -630,16 +630,56 @@ Worst-case number of comparisons?  Enter a number
 If you were looking for `5` in the array, you would first compare 3, find out it's too small and search from index 3 to 4.  Next you would compare 4, and find it's also too small, and then finally compare 5, find the value and return true.  So **worst-case you would need 3 comparisions**.
 
   ![Binary Search Loop Table](images/binary-search-loop-table-5-elements.png)
-</details>
 
+##### !end-explanation
 
-<details>
-  <summary>What if you went from a 5-element array to a 10 element array?  How does the number of comparisons change?</summary>
-  For example with the array `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` if you were looking for 10, you would first compare 5 to 10 discover it's too small and then search through indices 5 - 9.  Then you compare 8 to 10 and discover 8 is too small and search through indicides 8-9.  Next you compare 9 to 10 and discover it's too small, and then do a search on index 9.  Then you find the element you are searching for and return.  So with a 10 element array you need only 4 comparisons.  By doubling the number of elements only increase the number of comparisons by 1.  Not bad!
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 4d85e450-9821-4116-b0f3-b44356cbb79d
+* title: Worst-case for binary search on a 10 element array
+* points: 1
+* topics: Big-O, Binary Search
+
+##### !question
+
+What if you went from a 5-element array to a 10 element array?  How does the number of comparisons change?
+
+##### !end-question
+
+##### !placeholder
+
+Enter a number
+
+##### !end-placeholder
+
+##### !answer
+
+/\d/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+For example with the array `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]` if you were looking for 10, you would first compare 5 to 10 discover it's too small and then search through indices 5 - 9.  Then you compare 8 to 10 and discover 8 is too small and search through indicides 8-9.  Next you compare 9 to 10 and discover it's too small, and then do a search on index 9.  Then you find the element you are searching for and return.  So with a 10 element array you need only 4 comparisons.  By doubling the number of elements only increase the number of comparisons by 1.  Not bad!
 
   ![Binary Search Loop Table](images/binary-search-loop-table.png)
 
-</details>
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 The scaling trend you are seeing here is called a _logarithmic change_. As we saw in [essential mathematics](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/Essential%20Mathematics.md), logarithmic change is related to exponential. _Log<sub>2</sub> n_ means at each step the value reduces by half of the remaining.  It also means that as the size of the array doubles, the number of iterations only increases by _1_.
 
@@ -703,10 +743,76 @@ You'll notice that the solution above has two `while` loops in addition to a set
 - The first while loop copies over each of the elements in the input array into a new array in reverse order of their position. The means, if there are 100 elements in the input array, then the loop will execute 100 times. If there are 700,000 elements in the input array, then the loop will execute 700,000 times and so on. Therefore, we can conclude that in the instructions in the first loop run as many times as the number of elements in the input array.
 - The second loop copies for each element of the temporary array back into the input array. So, the second loop will also run as many times as the number of elements in the input array.
 
-<details>
-  <summary>What happens to the number of loop iterations if you go from 100 nodes to 200?  What about from 700,000 to 1,400,000?</summary>
-  With 200 nodes, the first loop will execute 100 times, and the second loop 100 times for a total of 200 iterations.  When the array becomes 200, the loops will execute 200 and 200 times, doubling when the length of the array doubles.  The same applies from 700K to 1.4 million elements.  This is a very similar effect to linear search.
-</details>
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: e32191c4-18d9-47fa-acce-5f300d33c693
+* title: What happens for reverse when the array size doubles
+* points: 1
+* topics: arrays, Big-O
+
+##### !question
+
+```
+// array is the input integer array to the algorithm
+if array.length <= 1
+  return // nothing to reverse
+
+i = 0
+j = array.length - 1
+
+// create a new array of the same size as input array
+temp_array = new array of size array.length
+
+while i < array.length
+  // copy over the values in input array 
+  // into the temp array in reverse order
+  temp_array[i] = array[j]
+  increment i
+  decrement j
+end while loop
+
+i = 0
+while i < array.length
+  // copy over values from the temp array 
+  // into the input array
+  array[i] = temp_array[i]
+end while loop
+
+// array is reversed
+```
+
+What happens to the number of loop iterations if you go from 100 nodes to 200?  What about from 700,000 to 1,400,000?
+
+##### !end-question
+
+##### !placeholder
+
+How does the number of loop iterations change?
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+With 200 nodes, the first loop will execute 100 times, and the second loop 100 times for a total of 200 iterations.  When the array becomes 200, the loops will execute 200 and 200 times, doubling when the length of the array doubles.  The same applies from 700K to 1.4 million elements.  This is a very similar effect to linear search.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 #### Reverse solution 2 - using swap
 
@@ -736,10 +842,68 @@ end while
 
 You'll notice that the loop in this approach will run roughly half the number of times as the number of elements in the input array.
 
-<details>
-  <summary>What about the trend, what happens to this algorithm if you double the number of elements in the array?</summary>
-  The reverse in place method above, still doubles the number of iterations when you double the number of elements in the array.  In other words, it is faster than the 1st solution, but scales similarly.
-</details>
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: e32191c4-18d9-47fa-acce-5f300d33c693
+* title: What happens for reverse when the array size doubles
+* points: 1
+* topics: arrays, Big-O
+
+##### !question
+
+```
+// array is the input integer array to the algorithm
+
+if array.length <= 1
+  return // nothing to reverse
+
+i = 0
+j = array.length - 1
+
+while i < j
+  // swap values at i and j
+  temp = array[i]
+  array[i] = array[j]
+  array[j] = temp
+
+  increment i
+  decrement j
+end while
+```
+
+What about the trend, what happens to this algorithm if you double the number of elements in the array?
+
+##### !end-question
+
+##### !placeholder
+
+How does the number of loop iterations change?
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The reverse in place method above, still doubles the number of iterations when you double the number of elements in the array.  In other words, it is faster than the 1st solution, but scales similarly.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 ## Summary
 
