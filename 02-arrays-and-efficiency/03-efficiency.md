@@ -129,7 +129,7 @@ i = 0
 j = array.length - 1
 
 while i < j
-  // swap values at i and j
+  # swap values at i and j
   temp = array[i]
   array[i] = array[j]
   array[j] = temp
