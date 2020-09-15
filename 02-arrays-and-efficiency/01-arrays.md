@@ -134,12 +134,6 @@ search(array, value_to_find)
 
 **Number of operations**:
 
-<details>
-  <summary>With an array of size 5, what situations will require the loop to execute the least times?</summary>
-  
-  In the best case, the value being sought is in the array at index 0 and the loop will execute only one time before returning `true`.
-</details>
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
@@ -182,12 +176,6 @@ If the value being sought is at the beginning of the array, the loop will only e
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-<details>
-  <summary>With an array of size 5, what situations will require the loop to execute the most times?</summary>
-  
-  In the worst case, the value being sought is not in the array or it is in the last element of the array and the loop will execute a number of times equal to the array's length before returning.  In this case 5 times.
-</details>
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
@@ -228,14 +216,6 @@ If the value being sought is at the last element of the array, if the element is
 
 <!-- ======================= END CHALLENGE ======================= -->
 
-
-<details>
-  <summary>Now double the size of the array.  What happens to the number of times the loop executes in the best, and worst cases?</summary>
-
-  In the best-case the item being sought is at index 0, and thus the loop executes 1 time and doubling the size of the array does not change this.
-
-  On the other hand, in the worst case doubling the number of elements from 5 to 10, also doubles the number of times the loop executes.
-</details>
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
