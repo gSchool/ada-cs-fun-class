@@ -56,6 +56,10 @@ Standards:
         Type: Checkpoint
         UID: b3e5030f89373dae804212918d12cf94
         Path: /02-arrays-and-efficiency/02-arrays-checkpoint.md
+      -
+        Type: Lesson
+        UID: b7d3c79c-ca91-4819-bac9-f89a4debab30
+        Path: /02-arrays-and-efficiency/04-time-complexity-quiz.md
   -
     Title: Sorting
     Description: Putting Arrays in Order
