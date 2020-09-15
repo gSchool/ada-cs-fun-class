@@ -521,7 +521,7 @@ If the array is sorted in ascending manner, how would you find the min value, or
 
 ##### !placeholder
 
-[text, placeholder text for the input field]
+How do you find the min or max item in a sorted array?
 
 ##### !end-placeholder
 
