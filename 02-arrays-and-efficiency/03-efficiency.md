@@ -149,20 +149,20 @@ Consider the same problem of reversing the values in an input integer array. Her
 ### Algorithm 2
 
 ```ruby
-// array is the input integer array to the algorithm
+# array is the input integer array to the algorithm
 
 if array.length <= 1
-  return // nothing to reverse
+  return # nothing to reverse
 
 i = 0
 j = array.length - 1
 
-// create a new array of the same size as input array
+# create a new array of the same size as input array
 temp_array = new array of size array.length
 
 while i < array.length
-  // copy over the values in input array 
-  // into the temp array in reverse order
+  # copy over the values in input array 
+  # into the temp array in reverse order
   temp_array[i] = array[j]
   increment i
   decrement j
@@ -170,11 +170,11 @@ while i < array.length
 
 i = 0
 while i < array.length
-  // copy over values from the temp array 
-  // into the input array
+  # copy over values from the temp array 
+  # into the input array
   array[i] = temp_array[i]
 
-// array is reversed
+# array is reversed
 ```
 
 **Exercise**: Examine the algorithm above to count the number of operations it will perform. Do the number of operations change as the input array size changes?
