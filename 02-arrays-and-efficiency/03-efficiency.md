@@ -120,10 +120,10 @@ Let's continue considering the example of reversing an array in place. Here's ou
 ### Algorithm 1
 
 ```ruby
-// array is the input integer array to the algorithm
+# array is the input integer array to the algorithm
 
 if array.length <= 1
-  return // nothing to reverse
+  return # nothing to reverse
 
 i = 0
 j = array.length - 1
