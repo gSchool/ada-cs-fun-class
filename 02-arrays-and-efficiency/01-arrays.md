@@ -321,6 +321,36 @@ We begin again, with **gathering the requirements**. Here's what we know:
 
 Once we know the expected inputs and outputs it is time to think about our **algorithmic approach**. How do we find the largest value in a list of unsorted integer values? One way is to assume that the first value we see if the largest value. Then, we compare this, so far largest known value with the next value in the array. If we find a value that is greater than the largest known value thus far, we update the largest known value. Once we have reached the end of the array, we have found the largest value in the array. Here's what the pseudo code may look like:
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 5ba1a5e9-7434-4ea5-9653-84ad92665b3e
+* title: largest_value runtime analysis
+* points: 1
+* topics: Big-O, Arrays
+
+##### !question
+
+```ruby
+def largest_value(array)
+  if array.length == 0
+    return nil
+
+  largest_value = array[0]
+  i = 1
+  while i < array.length
+    if array[i] > largest_value
+      largest_value = array[i]
+    end
+
+    i = i + 1
+  end
+
+  return largest_value
+end
 ```
 largest_value(array)
   if array's length == 0
