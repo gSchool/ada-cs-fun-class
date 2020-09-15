@@ -502,12 +502,47 @@ There are several real world scenarios where we want our data to be ordered in a
 
 Having the data sorted, simplifies some of the algorithms.
 
-**Question**: If the array is sorted in ascending manner, how would you find the min value, or max value?
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
-<details>
-  <summary> Minimum and maximum value in a sorted array</summary>
-  The algorithms for finding the minimum and maximum values get simplified if the array is sorted. The **minimum value** in an array that is sorted in an ascending manner will always be the first entry in the array i.e. array[0]. The **maximum value** in an array that is sorted in an ascending manner will always be the last entry in the array i.e. array[*n*-1], where *n* is the length of the array. If you compare the number of steps needed in this approach, with the approach needed for unsorted arrays, you'll find that the algorithm is significantly simpler and faster if the array is sorted.
-</details>
+### !challenge
+
+* type: short-answer
+* id: 6d98894d-1272-4f2d-96dc-51b98575097c
+* title: Find min in sorted array
+* points: 1
+* topics: arrays
+
+##### !question
+
+If the array is sorted in ascending manner, how would you find the min value, or max value?
+
+##### !end-question
+
+##### !placeholder
+
+[text, placeholder text for the input field]
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The algorithms for finding the minimum and maximum values get simplified if the array is sorted. The **minimum value** in an array that is sorted in an ascending manner will always be the first entry in the array i.e. array[0]. The **maximum value** in an array that is sorted in an ascending manner will always be the last entry in the array i.e. array[*n*-1], where *n* is the length of the array. If you compare the number of steps needed in this approach, with the approach needed for unsorted arrays, you'll find that the algorithm is significantly simpler and faster if the array is sorted.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 You'll learn more about [algorithms to sort an array](https://github.com/Ada-Developers-Academy/textbook-curriculum/blob/master/04-cs-fundamentals/classroom/Sorting.md) soon. For now, we can already see how having the array sorted makes finding the maximum and minimum value a faster and simplified algorithm. With that, let's consider searching for a value in a sorted array.
 
