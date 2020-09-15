@@ -66,7 +66,7 @@ Standards:
     UID: 1c1069b6-abb9-45d1-8b82-8d60c2ac1581
     SuccessCriteria:
       - success criteria
-    Contentfiles:
+    ContentFiles:
       -
         Type: Lesson
         UID: afca0c37-96c1-4e88-96a0-75c3cf7b56bf
