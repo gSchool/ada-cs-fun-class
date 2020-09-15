@@ -216,7 +216,7 @@ Here are the commonly seen big O terms:
 - _O(1)_ is the no-growth curve. An _O(1)_ algorithm's performance is conceptually independent of the size of the data set on which it operates. Such an algorithm is said to have _constant_ time complexity. e.g. Indexing into an array to retrieve a value at a particular index is _O(1)_.
 - _O(log n)_ means that the data set size affects the efficiency of the algorithm in a _logarithmic_ fashion. The key thing to note is that _log (base 2) n_ grows slowly. Doubling _n_ has a relatively small effect. Logarithmic curves flatten out nicely. e.g. Searching for a value in a sorted array using _binary search_ is of _O(log n)_ time complexity.
 - _O(n)_ says that the algorithm's performance is directly proportional to the size of the data set being processed. Such an algorithm is said to have _linear_ time complexity. e.g. Searching for a value in an unsorted array takes _O(n)_ or _linear_ time.
-- _O(n^2)_ says that the algorithm's performance is proportional to the square of the data set size. This happens when the algorithm processes each element of a set, and for each element processing, another pass through all the remaining elements in the set is required. Such an algorithm is said to have _quadratic_ time complexity. e.g. Some of the [sorting](../03-sorting/sorting.md) algorithms have a _quadratic_ time complexity.
+- _O(n^2)_ says that the algorithm's performance is proportional to the square of the data set size. This happens when the algorithm processes each element of a set, and for each element processing, another pass through all the remaining elements in the set is required. Such an algorithm is said to have _quadratic_ time complexity. e.g. Some of the [sorting](../04-sorting/sorting.md) algorithms have a _quadratic_ time complexity.
 - _O(n * m)_ says that the algorithm's performance is _quadratic_ in nature. e.g. Consider an algorithm which has access to a list of *n* Jedis and *m* Siths. The algorithm records the winners of a 1-to-1 duel between each Jedi and each Sith. Then the resulting record will be of size _n * m_.
 
 **Note**: While sharing the time or space complexity in terms of _n_ or _m_ or any other variable like _k_, it is important to explain what _n_, _m_ or _k_ stand for.
@@ -235,7 +235,7 @@ Consider a physical phone book as an example to illustrate Big O notation for al
 - _O(1)_ – Find a random person’s phone number by flipping open any page in the phone book.
 - _O(log n)_ – Given a person’s name, find the corresponding phone number. This is using a binary search for a person’s phone number.
 - _O(n)_ – Find all people whose phone numbers contain the digit "5". This will require _linear_ scaning through the phone book.
-- _O(n log n)_ – Sort a phone book’s pages by looking at the first name on each page. See [the merge sort](../03-sorting/sorting.md) for understanding this further.
+- _O(n log n)_ – Sort a phone book’s pages by looking at the first name on each page. See [the merge sort](../04-sorting/sorting.md) for understanding this further.
 
 ## Exercises
 
