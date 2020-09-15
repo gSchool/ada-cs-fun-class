@@ -169,7 +169,7 @@ A Queue has the following methods:
 - `enqueue(e)` - This method takes an element and adds it to the back of the queue.
 - `dequeue` - This method removes and returns the element from the front of the queue
 
-![Queue Image](../internship/images/queue.png)
+![Queue Image](images/queue.png)
 
 ## Graphs
 
