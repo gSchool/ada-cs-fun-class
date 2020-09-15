@@ -450,6 +450,46 @@ Because this algorithm starts at the beginning and repeats until it reaches the 
 
 **Exercise**: Modify the algorithm above to devise an algorithm that would return the minimum value in the input array. Try this algorithm and the one above on sample input values.
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: custom-snippet
+* language: ruby
+* id: b01515b3-88af-48f1-8118-2f57c8f8898b
+* title: Find min
+* docker_directory_path: /custom-snippets/find_min
+* points: 1
+* topics: arrays
+
+##### !question
+
+**Exercise**: Modify the algorithm above to devise an algorithm that would return the minimum value in the input array.
+
+
+
+##### !end-question
+
+##### !placeholder
+
+```ruby
+def find_min(list)
+  
+end
+```
+
+##### !end-placeholder
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 ### Sorted Arrays
 
 There are several real world scenarios where we want our data to be ordered in ascending or descending way. Example:
