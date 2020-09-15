@@ -61,6 +61,21 @@ Standards:
         UID: b7d3c79c-ca91-4819-bac9-f89a4debab30
         Path: /02-arrays-and-efficiency/04-time-complexity-quiz.md
   -
+    Title: Data Structures
+    Description: Ways to organize Data
+    UID: 1c1069b6-abb9-45d1-8b82-8d60c2ac1581
+    SuccessCriteria:
+      - success criteria
+    Contentfiles:
+      -
+        Type: Lesson
+        UID: afca0c37-96c1-4e88-96a0-75c3cf7b56bf
+        Path: /03-data-structures/data-structures.md
+      -
+        Type: Checkpoint
+        UID: c08d3762-a698-4a0b-9ff3-e341bb131cd4
+        Path: /03-data-structures/02-data-structures-checkpoint.md
+  -
     Title: Sorting
     Description: Putting Arrays in Order
     UID: 92315227-a3d4-4183-96e0-55f73370ea01
@@ -70,5 +85,5 @@ Standards:
       -
         Type: Lesson
         UID: f0467e93-fee5-4e8e-a4f8-a99f4761dd2b
-        Path: /03-sorting/sorting.md
+        Path: /04-sorting/sorting.md
   
