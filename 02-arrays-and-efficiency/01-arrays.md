@@ -418,19 +418,35 @@ def largest_value(array)
 end
 ```
 
-<details>
-    <summary> If the array is of length 5, how many times will the loop execute?  Are there some situations where it will run more or less times?
-    </summary>
-    The comparison inside the loop will happen exactly one less time than the number of elements in the input array. If there are 5 elements in the input array, then the instructions within the loop will run 4 times. If there are 101 elements in the input array, then the instructions within the loop will run 100 times.  
+Do you notice any similarities in the number of iterations between the `find_largest` and the linear search further above?
 
-    Because there is no code to break out of the loop early, the number of iterations is **always** equal to the length of the array minus 1.
-</details>
 
-<details>
-    <summary> Do you notice any similarities in the number of iterations between the `find_largest` and the linear search further above?
-    </summary>
-    Because this algorithm starts at the beginning and repeats until it reaches the end of the array, it behaves in a very similar pattern with the average and worst-case scenarios of linear search.  Doubling the number of elements causes the number of loop iterations to similarly double.
-</details>
+##### !end-question
+
+##### !placeholder
+
+Any similarities?
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Because this algorithm starts at the beginning and repeats until it reaches the end of the array, it behaves in a very similar pattern with the average and worst-case scenarios of linear search.  Doubling the number of elements causes the number of loop iterations to similarly double.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 **Exercise**: Modify the algorithm above to devise an algorithm that would return the minimum value in the input array. Try this algorithm and the one above on sample input values.
 
