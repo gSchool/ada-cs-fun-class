@@ -571,7 +571,7 @@ As the method runs it has an outer loop which runs _n_ times.  Inside that loop 
 
 ##### !question
 
-What is the _time_ complexity of the above code segment?
+What is the _space_ complexity of the above code segment?
 
 ```ruby
 def bubble_sort(array)
