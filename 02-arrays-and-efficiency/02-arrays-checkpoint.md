@@ -8,14 +8,14 @@
 * type: testable-project
 * id: a173a1da-4898-4536-8f27-2999a21a89ac
 * title: Binary Numbers
-* upstream: https://github.com/Ada-C14/binary-and-decimal
+* upstream: https://github.com/Ada-C14/restricted-arrays
 * validate_fork: true
 * points: 2
 * topics: binary-numbers, arrays
 
 ##### !question
 
-For the https://github.com/Ada-C14/binary-and-decimal and complete the `binary_to_decimal` method.  You can run the tests by running `rake` at the command-line.
+For the https://github.com/Ada-C14/restricted-arrays and complete the Restricted Arrays methods.  You can run the tests by running `rake` at the command-line.
 
 ##### !end-question
 
@@ -47,7 +47,7 @@ Link to your repository
 
 ##### !question
 
-Create a pull request to https://github.com/ada-c14/binary-and-decimal and copy the url to this question.
+Create a pull request to https://github.com/Ada-C14/restricted-arrays and copy the url to this question.
 
 ##### !end-question
 
