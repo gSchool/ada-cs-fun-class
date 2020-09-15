@@ -56,7 +56,7 @@ Standards:
         Type: Lesson
         UID: 7c8ff3f2-77b1-4862-88c5-81a849ecd000
         Path: /02-arrays-and-efficiency/03-efficiency.md
-        -
+      -
         Type: Lesson
         UID: b7d3c79c-ca91-4819-bac9-f89a4debab30
         Path: /02-arrays-and-efficiency/04-time-complexity-quiz.md
