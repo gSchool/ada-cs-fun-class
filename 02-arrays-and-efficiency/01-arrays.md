@@ -352,8 +352,56 @@ def largest_value(array)
   return largest_value
 end
 ```
-largest_value(array)
-  if array's length == 0
+
+If the array is of length 5, how many times will the loop execute?  Are there some situations where it will run more or less times?
+
+
+##### !end-question
+
+##### !placeholder
+
+
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The comparison inside the loop will happen exactly one less time than the number of elements in the input array. If there are 5 elements in the input array, then the instructions within the loop will run 4 times. If there are 101 elements in the input array, then the instructions within the loop will run 100 times.  
+
+Because there is no code to break out of the loop early, the number of iterations is **always** equal to the length of the array minus 1.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: c573048d-b4fa-4787-9e84-66936c087021
+* title: Compared to Linear Search
+* points: 1
+* topics: Big-O, Arrays
+
+##### !question
+
+```ruby
+def largest_value(array)
+  if array.length == 0
     return nil
 
   largest_value = array[0]
