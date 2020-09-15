@@ -334,23 +334,21 @@ Once we know the expected inputs and outputs it is time to think about our **alg
 
 ##### !question
 
-```ruby
-def largest_value(array)
-  if array.length == 0
+```
+largest_value(array)
+  if array's length == 0
     return nil
 
   largest_value = array[0]
   i = 1
-  while i < array.length
+  while i < array's length
     if array[i] > largest_value
       largest_value = array[i]
-    end
 
     i = i + 1
-  end
+  end loop
 
   return largest_value
-end
 ```
 
 If the array is of length 5, how many times will the loop execute?  Are there some situations where it will run more or less times?
