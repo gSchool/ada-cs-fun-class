@@ -49,14 +49,14 @@ Standards:
         UID: ece6a3da4a290866251b1bd78d1dbb37
         Path: /02-arrays-and-efficiency/01-arrays.md
       -
-        Type: Lesson
-        UID: 7c8ff3f2-77b1-4862-88c5-81a849ecd000
-        Path: /02-arrays-and-efficiency/02-efficiency.md
-      -
         Type: Checkpoint
         UID: b3e5030f89373dae804212918d12cf94
         Path: /02-arrays-and-efficiency/02-arrays-checkpoint.md
       -
+        Type: Lesson
+        UID: 7c8ff3f2-77b1-4862-88c5-81a849ecd000
+        Path: /02-arrays-and-efficiency/03-efficiency.md
+        -
         Type: Lesson
         UID: b7d3c79c-ca91-4819-bac9-f89a4debab30
         Path: /02-arrays-and-efficiency/04-time-complexity-quiz.md
