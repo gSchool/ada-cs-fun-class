@@ -406,14 +406,16 @@ def largest_value(array)
 
   largest_value = array[0]
   i = 1
-  while i < array's length
+  while i < array.length
     if array[i] > largest_value
       largest_value = array[i]
+    end
 
     i = i + 1
-  end loop
+  end
 
   return largest_value
+end
 ```
 
 <details>
