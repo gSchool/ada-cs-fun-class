@@ -96,7 +96,7 @@ Let's consider this for the algorithm above:
 1. Next, the algorithm initializes two integer variables to index into the array. These two steps will always be performed, if the array has at least , two elements in it. Furthermore, there will be exactly two steps, regardless of the size of the array. i.e. Regardless of whether the array has 200 elements or 700,000 elements, the **initializations will always need exactly two operations** to be complete.
 1. The main algorithm has a loop. For any loop, we want to consider how many times all of the operations insider the loop will get executed, and if this number of operations is dependent in any way on the value or size of the input. For quick reference, here's the loop (written in pseudo code)
 
-```
+```ruby
 i = 0
 j = array.length - 1
 while i < j 
@@ -117,7 +117,7 @@ Let's continue considering the example of reversing an array in place. Here's ou
 
 ### Algorithm 1
 
-```
+```ruby
 // array is the input integer array to the algorithm
 
 if array.length <= 1
@@ -146,7 +146,7 @@ Consider the same problem of reversing the values in an input integer array. Her
 
 ### Algorithm 2
 
-```
+```ruby
 // array is the input integer array to the algorithm
 
 if array.length <= 1
