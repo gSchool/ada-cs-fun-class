@@ -241,6 +241,18 @@ Consider a physical phone book as an example to illustrate Big O notation for al
 
 Look at the following code segments and try to identify the Big-O time & space complexities.
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: d28f6abc-a318-4c32-aca5-52b5c354ccbd
+* title: Question 1
+* points: 1
+* topics: Big-O
+
+##### !question
 
 ```ruby
 def find_max(array)
@@ -257,13 +269,134 @@ def find_max(array)
 end
 ```
 
+  What is the time complexity of the above code segment?
+  
+##### !end-question
+
+##### !options
+
+* O(1)
+* O(log n)
+* O(n)
+* O(nlog n)
+* O(n^2)
+
+##### !end-options
+
+##### !answer
+
+* O(n)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !hint
+
+What determines the number of times the loop will execute, worst-case?
+
+##### !end-hint
+##### !explanation
+
+This method will iterate through the entire array.  Thus if the array size doubles the loop will take twice as long.  So the time complexity is O(n)
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 08fc7ab8-654d-4aca-b374-e647226d0d8e
+* title: Question 2
+* points: 1
+* topics: Big-O
+
+##### !question
+
+```ruby
+def find_max(array)
+  return nil if array.nil?  || array.length == 0
+
+  max = array[0]
+  (1...array.length).each do |index|
+    if array[index] > max
+      max = array[index]
+    end
+  end
+
+  return max
+end
+```
+
+  What is the _space_ complexity of the above code segment?
+  
+##### !end-question
+
+##### !options
+
+* O(1)
+* O(log n)
+* O(n)
+* O(nlog n)
+* O(n^2)
+
+##### !end-options
+
+##### !answer
+
+* O(1)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !hint
+
+What determines the number of times the loop will execute, worst-case?
+
+##### !end-hint
+##### !explanation
+
+This method only creates two additional variables, `index` and `max` which does not change no matter how large the array gets.  Therefore the space complexity does not change as the size of the array increases.  This means the space complexity is O(1).
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+
+
+
 <details>
   <summary>What is the runtime & space complexity of the above code segment?</summary>
   The above segment has 1 loop which runs a number of times equal to the size of the input.  All the other code segments run regardless of the input, so the Big-O is O(n).
 
-  The method does only use two local integer variables (index & max) no matter the input size, so the space complexity is O(1).
+  The method has an array which in the worst-case scenario will be equal to the length of the input array, so the algorithm has a space-complexity of O(n).
 </details>
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 35a011f3-4b23-4b66-b06e-ab9bae93761e
+* title: Question 3
+* points: 1
+* topics: Big-O
+
+##### !question
+
+What is the _time_ complexity of the above code segment?
 
 ```ruby
 def greater_than(array, value)
@@ -280,12 +413,114 @@ def greater_than(array, value)
 end
 ```
 
-<details>
-  <summary>What is the runtime & space complexity of the above code segment?</summary>
-  The above segment has 1 loop which runs a number of times equal to the size of the input.  All the other code segments run regardless of the input, so the Big-O is O(n).
+##### !end-question
 
-  The method has an array which in the worst-case scenario will be equal to the length of the input array, so the algorithm has a space-complexity of O(n).
-</details>
+##### !options
+
+* O(1)
+* O(log n)
+* O(n)
+* O(nlog n)
+* O(n^2)
+
+##### !end-options
+
+##### !answer
+
+* O(n)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The time complexity depends on the loop here which will increase proportionally to the size of the array.  So this method has O(n) time complexity.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: ed5a99f4-d287-46fd-91ba-4f991c3bb035
+* title: Question 4
+<!-- * points: [1] (optional, the number of points for scoring as a checkpoint) -->
+<!-- * topics: [python, pandas] (optional the topics for analyzing points) -->
+
+##### !question
+
+What is the _space_ complexity of the above code segment?
+
+```ruby
+def greater_than(array, value)
+  return nil if array.nil?  || array.length == 0
+
+  temp = []
+  array.each do |element|
+    if element > value
+      temp << element
+    end
+  end
+
+  return temp
+end
+```
+
+##### !end-question
+
+##### !options
+
+* O(1)
+* O(log n)
+* O(n)
+* O(nlog n)
+* O(n^2)
+
+##### !end-options
+
+##### !answer
+
+* O(n)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+As the method runs it builds another array which worst-case is equal in size to the original array.  Therefore it is O(n) in space complexity
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: ed5a99f4-d287-46fd-91ba-4f991c3bb035
+* title: Question 5
+* points: 
+* topics: Big-O
+
+##### !question
+
+What is the _time_ complexity of the above code segment?
 
 ```ruby
 def bubble_sort(array)
@@ -301,12 +536,101 @@ def bubble_sort(array)
 end
 ```
 
-<details>
-  <summary>What is the runtime & space complexity of the above code segment?</summary>
-  The above segment has 2 loops one nested inside the other.  The outer loop runs n times and the inner loop runs n-1 times.  Because the outer loop will cause the inner loop to execute with each iteration, the runtime would be `n * (n-1) = n^2 - n`, which leads to O(n^2) runtime.
 
-  The method does only use one local integer variable no matter the input size, so the space complexity is O(1).
-</details>
+
+##### !end-question
+
+##### !options
+
+* O(1)
+* O(log n)
+* O(n)
+* O(nlog n)
+* O(n^2)
+
+##### !end-options
+
+##### !answer
+
+* O(n^2)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+As the method runs it has an outer loop which runs _n_ times.  Inside that loop is another which runs approximately _n_ times as well.  So with each iteration of the outer loop is another that runs.  So the method runs `n * n` times.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 9d4ca26b-d2d0-425b-853e-ff0d64138ed4
+* title: Question 6
+* points: 
+* topics: Big-O
+
+##### !question
+
+What is the _time_ complexity of the above code segment?
+
+```ruby
+def bubble_sort(array)
+   n = array.length
+   n.times do
+     (n - 1).times do |i|
+       if array[i] > array[i + 1]
+         array[i], array[i + 1] = array[i + 1], array[i]
+       end
+     end
+   end
+   return array
+end
+```
+
+
+
+##### !end-question
+
+##### !options
+
+* O(1)
+* O(log n)
+* O(n)
+* O(nlog n)
+* O(n^2)
+
+##### !end-options
+
+##### !answer
+
+* O(1)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The method does only use one local integer variable no matter the input size, so the space complexity is O(1).
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 ## Summary
 
