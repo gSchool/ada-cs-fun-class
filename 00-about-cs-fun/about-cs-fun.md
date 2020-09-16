@@ -83,6 +83,13 @@ That said:
 
 The curriculum and even this document are **not** set in stone.  If you want to suggest a change in a curriculum document, feel free to edit the markdown and open a pull request.  This includes **this** document.
 
+You can find the markdown documents [here.](https://github.com/gschool/ada-cs-fun-class)
+
+## Videos
+
+- [In Class Lessons in the auditorium recordings](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=%2268179df6-b98d-4b12-8f68-ac32016bc0a0%22)
+- [Online lessons](https://adaacademy.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx?folderID=5a998371-98fa-48fe-834d-aa08012bd2f7)
+
 ## Outside Resources
 
 These resources are **not** required for CS Fundamentals, but if you want to go further than we can in class, they can be useful.
