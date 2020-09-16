@@ -280,7 +280,7 @@ Double the size of the array.  What happens to the number of times the loop exec
 
 ##### !answer
 
-/(same)|(not change)|(1)/
+/(same)|(not change)|(1)|(no change)|(not change)/
 
 ##### !end-answer
 
