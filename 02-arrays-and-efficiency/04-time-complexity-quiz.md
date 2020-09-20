@@ -433,7 +433,11 @@ What is the time complexity of:
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+##### !explanation
+
+The counter loop will run `n` times and each time it does the inner loop will also run `n` times.  So n * n = n^2.
+
+##### !end-explanation
 
 ### !end-challenge
 
