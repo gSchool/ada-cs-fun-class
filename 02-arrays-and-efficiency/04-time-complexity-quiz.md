@@ -426,7 +426,7 @@ What is the time complexity of:
 
 ##### !answer
 
-* O(n)
+* O(n^2)
 
 ##### !end-answer
 
