@@ -164,29 +164,7 @@ Most recursive methods will follow the following pattern:
 - Else
   - Solve by recursively calling the same function with smaller input
 
-### Exercise
-
-Write a recursive function which takes a natural number, `x`, and computes a sum of all natural numbers up to and including `x`.
-
-Examples:
-
-- natural_sum(5) = 5 + 4 + 3 + 2 + 1
-- natural_sum(7) = 7 + 6 + 5 + 4 + 3 + 2 + 1
-
-When you are ready you can see a [solution](examples/recursion_example.rb) to both a recursive and iterative solution.
-
-**Question**
-
-```ruby
-def natural_numbers_sum(num)
-  return num + natural_numbers_sum(num - 1)
-end
-```
-
-<details>
-  <summary>Will the above method work?</summary>
-  No!!  The above method has no base case and therefore it will lead to infinite recursion.
-</details>
+### Exercises
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
@@ -231,6 +209,60 @@ end
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 <!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+**Question**
+
+
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: 1d5087f8-be57-475a-81e2-6449e15f5389
+* title: Infinite Recursion
+* points: 1
+* topics: recursion
+
+##### !question
+
+```ruby
+def natural_numbers_sum(num)
+  return num + natural_numbers_sum(num - 1)
+end
+```
+
+Will the above method work?
+
+##### !end-question
+
+##### !options
+
+* Yes
+* No
+* Maybe?
+
+##### !end-options
+
+##### !answer
+
+* No
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+No!!  The above method has no base case and therefore it will lead to infinite recursion.
+
+##### !end-explanation
 
 ### !end-challenge
 
