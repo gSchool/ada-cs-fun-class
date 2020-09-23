@@ -86,4 +86,15 @@ Standards:
         Type: Lesson
         UID: f0467e93-fee5-4e8e-a4f8-a99f4761dd2b
         Path: /04-sorting/sorting.md
-  
+  -
+    Title: Understanding Function Calls
+    Description: How methods work
+    UID: b21a6a74-4e9e-4993-a3fd-9def3baa7d80
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: a322c264-0aa9-469a-a0f2-7d3b6f510b5f
+        Path: /05-function-calls/function-calls.md
+    
