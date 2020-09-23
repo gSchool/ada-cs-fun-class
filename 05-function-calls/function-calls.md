@@ -315,7 +315,7 @@ So you add `mystery(1)` to the stack.
 
 ![Mystery return 1](images/mystery(1)-return.png)
 
-`mystery(2) takes that return value multiplies it by 2 and returns 2.  That method then takes 2 and multiplies it by 3 and returns the product 6.  mystery(4) then takes that and multiples it by 4 and returns the product of 24.  The last mystery(5) takes 24 and multiplies it by 5 and returns the product 120.
+`mystery(2)` takes that return value multiplies it by 2 and returns 2.  That method then takes 2 and multiplies it by 3 and returns the product 6.  mystery(4) then takes that and multiples it by 4 and returns the product of 24.  The last `mystery(5)` takes 24 and multiplies it by 5 and returns the product 120.
 
 ![mystery result](images/mystery-result.png)
 
