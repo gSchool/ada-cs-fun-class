@@ -642,6 +642,7 @@ In this lesson we examined how computer scientists evaluate an algorithm's effic
 
 - [A story of Big-O](https://medium.com/@deadcookies/a-story-of-big-o-453471a35e62)
 - [Free Code Camp on Why Big-O Matters & Why It Doesn't](https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/)
+- [Like's Guide to Big O Notation](https://lukasmestan.com/simple-guide-to-big-o-notation/)
 
 <!-- ## Slide Deck
 
