@@ -406,7 +406,7 @@ end
 
 * type: multiple-choice
 * id: fc6d2246-6521-425d-a5a7-e33cd278a788
-* title: Tracing Recursion 1a
+* title: Tracing Recursion 1b
 * points: 1
 * topics: recursion
 
@@ -459,7 +459,7 @@ end
 
 * type: multiple-choice
 * id: edcd2ec5-09c8-45f6-a637-e69b863be91b
-* title: Tracing Recursion 1a
+* title: Tracing Recursion 1c
 * points: 1
 * topics: recursion
 
@@ -511,7 +511,7 @@ end
 
 * type: multiple-choice
 * id: d2a09c82-badd-4029-ae58-aa828c6b7a62
-* title: Tracing Recursion 1a
+* title: Tracing Recursion 1d
 * points: 1
 * topics: recursion, big-o
 
@@ -564,7 +564,7 @@ end
 
 * type: multiple-choice
 * id: e87cfb9f-216a-4fc5-b25f-416a9fc6da70
-* title: Tracing Recursion 1a
+* title: Tracing Recursion 1e
 * points: 1
 * topics: recursion, big-o
 
@@ -1277,7 +1277,7 @@ end
 
 * type: multiple-choice
 * id: 81c2bdc8-6148-4396-a302-c0bea02e1b94
-* title: Tracing Recursion 4e
+* title: Tracing Recursion 4c
 * points: 1
 * topics: recursion
 
@@ -1630,12 +1630,16 @@ end
 
 ##### !answer
 
-* O(n)
+* O(n^2)
 
 ##### !end-answer
 
 <!-- other optional sections -->
-<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+##### !hint
+
+What is the time complexity of `s[1..-1]`...  This copies all but 2 of the letters in the string.
+
+##### !end-hint
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 <!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
 
@@ -2182,7 +2186,7 @@ end
 
 ##### !answer
 
-* O(n)
+* O(n^2)
 
 ##### !end-answer
 
