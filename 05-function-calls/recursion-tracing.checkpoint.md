@@ -827,7 +827,7 @@ end
 ### !challenge
 
 * type: multiple-choice
-* id: b58088e0-42d7-4dcb-af72-3cc1dc3ee157
+* id: 6b5025af-6b6d-4dc6-b923-1030b13d008c
 * title: Tracing Recursion 2e
 * points: 1
 * topics: recursion
