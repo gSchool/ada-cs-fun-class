@@ -1867,7 +1867,7 @@ end
 ### !challenge
 
 * type: multiple-choice
-* id: 14efae4d-0d2e-47b4-a701-60c2ee0ff7ad
+* id: 4609e933-f767-4342-bc24-c9e31fe2f052
 * title: Tracing Recursion 6d
 * points: 1
 * topics: recursion
