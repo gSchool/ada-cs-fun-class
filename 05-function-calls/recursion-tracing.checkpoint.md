@@ -1738,7 +1738,7 @@ end
 
 ##### !answer
 
-* "moon goodnight"
+* " moon goodnight"
 
 ##### !end-answer
 
