@@ -98,6 +98,6 @@ Standards:
         UID: a322c264-0aa9-469a-a0f2-7d3b6f510b5f
         Path: /05-function-calls/function-calls.md
       -
-        Type: Lesson
+        Type: Checkpoint
         UID: f99b4a60-f661-44bc-be1a-2079aec0752b
         Path: /05-function-calls/recursion-tracing.checkpoint.md
