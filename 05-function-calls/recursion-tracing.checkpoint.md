@@ -998,7 +998,7 @@ end
 ### !challenge
 
 * type: multiple-choice
-* id: e85aa1f4-0b2d-4f80-b61d-2f19bd2c541d
+* id: 111780c0-6e39-4f4c-a982-1193a659c55e
 * title: Tracing Recursion 3c
 * points: 1
 * topics: recursion
