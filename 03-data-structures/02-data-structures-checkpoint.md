@@ -7,15 +7,15 @@
 
 * type: testable-project
 * id: c714e6fc-cbff-4b43-9448-03c9f109b446
-* title: Binary Numbers
+* title: Array Equals
 * upstream: https://github.com/Ada-C14/array-equals
 * validate_fork: true
 * points: 0
-* topics: binary-numbers, arrays
+* topics: arrays, bigO
 
 ##### !question
 
-For the https://github.com/Ada-C14/array-equals and complete the Restricted Arrays methods.  You can run the tests by running `rake` at the command-line.
+For the https://github.com/Ada-C14/array-equals and complete the Array Equals method.  You can run the tests by running `rake` at the command-line.
 
 ##### !end-question
 
@@ -43,7 +43,7 @@ Link to your repository
 * id: 3d389f63-fb7b-4416-81d6-762b1d3af1cb
 * title: Link to your PR
 * points: 3
-* topics: binary-numbers, arrays
+* topics: arrays, bigO
 
 ##### !question
 
@@ -79,15 +79,15 @@ Link to PR
 
 * type: testable-project
 * id: c1a9efe3-f0bf-4376-9aab-947f8532eeb9
-* title: Binary Numbers
+* title: Array-String practice
 * upstream: https://github.com/Ada-C14/array-string-practice
 * validate_fork: true
 * points: 0
-* topics: binary-numbers, arrays
+* topics: arrays, bigO
 
 ##### !question
 
-For the https://github.com/Ada-C14/array-string-practice and complete the Restricted Arrays methods.  You can run the tests by running `rake` at the command-line.
+For the https://github.com/Ada-C14/array-string-practice and complete the Array String Practice Exercise.  You can run the tests by running `rake` at the command-line.
 
 ##### !end-question
 
@@ -115,7 +115,7 @@ Link to your repository
 * id: ad732767-cd86-4305-a6ab-dca606a9d592
 * title: Link to your PR
 * points: 3
-* topics: binary-numbers, arrays
+* topics: arrays, bigO
 
 ##### !question
 
