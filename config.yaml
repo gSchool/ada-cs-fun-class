@@ -72,6 +72,10 @@ Standards:
         UID: afca0c37-96c1-4e88-96a0-75c3cf7b56bf
         Path: /03-data-structures/data-structures.md
       -
+        Type: Lesson
+        UID: 9778eee8-ce44-4f35-a378-0a099f4a2978
+        Path: /03-data-structures/data-structures-quiz.md
+      -
         Type: Checkpoint
         UID: c08d3762-a698-4a0b-9ff3-e341bb131cd4
         Path: /03-data-structures/02-data-structures-checkpoint.md
