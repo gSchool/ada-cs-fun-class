@@ -167,7 +167,7 @@ What is this data structure?
 
 ![data structure pic](images/stack-cmu.png)
 
-Image from Geeks for Geeks
+Image from Carnegie Mellon University
 
 ##### !end-question
 
@@ -310,7 +310,9 @@ Because it's a linked structure, you can add an element to the beginning of the 
 What does this describe?
 
 ```
-A type or class who's behavior is described by a set of values and public operations without specifying how it is implemented
+A type or class who's behavior is described by 
+a set of values and public operations without 
+specifying how it is implemented
 ```
 
 ##### !end-question
@@ -363,7 +365,10 @@ The definition of ADT only mentions what operations are to be performed but not 
 What does this describe?
 
 ```
-A data type in which all elements are stored in contiguous memory locations (all right next to each other in memory) and any item can be accessed via an "index number," in O(1) time.
+A data type in which all elements are stored in 
+contiguous memory locations (all right next to each 
+other in memory) and any item can be accessed via an 
+"index number," in O(1) time.
 ```
 
 ##### !end-question
@@ -388,11 +393,9 @@ A data type in which all elements are stored in contiguous memory locations (all
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-As stated in [Geeks for Geeks:](https://www.geeksforgeeks.org/abstract-data-types/)
+As stated in [Geeks for Geeks:](https://www.geeksforgeeks.org/array-data-structure/)
 
-Abstract Data type (ADT) is a type (or class) for objects whose behaviour is defined by a set of value and a set of operations.
-
-The definition of ADT only mentions what operations are to be performed but not how these operations will be implemented. It does not specify how data will be organized in memory and what algorithms will be used for implementing the operations. It is called “abstract” because it gives an implementation-independent view. The process of providing only the essentials and hiding the details is known as abstraction.
+An array is a collection of items stored at contiguous memory locations. The idea is to store multiple items of the same type together. This makes it easier to calculate the position of each element by simply adding an offset to a base value, i.e., the memory location of the first element of the array (generally denoted by the name of the array).
 
 ##### !end-explanation
 
@@ -416,9 +419,12 @@ The definition of ADT only mentions what operations are to be performed but not 
 What does this describe?
 
 ```
-A kind of list data type in which begins with a specific head element and each element contains a reference to the next.
+A kind of list data type in which begins with a 
+specific head element and each element contains a 
+reference to the next.
 
-Elements are not stored in contiguous memory locations.
+Elements are not stored in contiguous memory 
+locations.
 ```
 
 ##### !end-question
@@ -445,9 +451,8 @@ Elements are not stored in contiguous memory locations.
 
 As stated in [Geeks for Geeks:](https://www.geeksforgeeks.org/data-structures/linked-list/)
 
-Abstract Data type (ADT) is a type (or class) for objects whose behaviour is defined by a set of value and a set of operations.
+A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers as shown in the below image:
 
-A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. ... In simple words, a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list.
 
 ##### !end-explanation
 
@@ -483,7 +488,11 @@ Differences between graph & trees
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-<!-- !explanation - !end-explanation (markdown, students can see after answering correctly) -->
+##### !explanation
+
+A graph can have cycles and can be structured in any manner.  A graph is a hierarchal data structure with a specific starting location, the root and each node is either a parent or child and each node can have at most one parent.
+
+##### !end-explanation
 
 ### !end-challenge
 
