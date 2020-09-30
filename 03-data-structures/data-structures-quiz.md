@@ -471,11 +471,11 @@ A linked list is a linear data structure, in which the elements are not stored a
 * id: fe147fda-a2b8-4d82-a0dd-e5118e7464f6
 * title: Data Structures #10
 * points: 1
-* topics: graph, tree
+* topics: data structures
 
 ##### !question
 
-In plain English, what is the difference between a graph and a tree?
+What questions do you have about data structures going forward?
 
 ##### !end-question
 
@@ -488,11 +488,6 @@ Differences between graph & trees
 <!-- other optional sections -->
 <!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
-##### !explanation
-
-A graph can have cycles and can be structured in any manner.  A graph is a hierarchal data structure with a specific starting location, the root and each node is either a parent or child and each node can have at most one parent.
-
-##### !end-explanation
 
 ### !end-challenge
 
