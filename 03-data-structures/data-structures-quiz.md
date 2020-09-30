@@ -44,7 +44,7 @@ What is this data structure?
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-This is a Binary Tree because it's a hierarchical data structure with each node having at most 2 children. 
+This is a Binary Tree because it's a hierarchical data structure with each node having at most 2 children and every node has at most 1 parent. 
 
 ##### !end-explanation
 
