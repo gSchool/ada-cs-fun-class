@@ -50,17 +50,17 @@ end
 
 **Example:** Consider the initial unsorted array [99, 45, 35, 40, 16, 50, 11, 7, 90]. Here's one iteration through the outer loop of the algorithm (i.e. while *i* is *0* and *j* ranges from *0* to *8*).
 
-| Iteration | Array |
-|-- |-- |
-| 1. | [**99, 45**, 35, 40, 16, 50, 11, 7, 90] |
-| 2. | [45, **99, 35**, 40, 16, 50, 11, 7, 90] |
-| 3. | [45, 35, **99, 40**, 16, 50, 11, 7, 90] |
-| 4. | [45, 35, 40, **99, 16**, 50, 11, 7, 90] |
-| 5. | [45, 35, 40, 16, **99, 50**, 11, 7, 90] |
-| 6. | [45, 35, 40, 16, 50, **99, 11**, 7, 90] |
-| 7. | [45, 35, 40, 16, 50, 11, **99, 7**, 90] |
-| 8. | [45, 35, 40, 16, 50, 11, 7, **99, 90**] |
-| 9. | [45, 35, 40, 16, 50, 11, 7, 90, 99] |
+| Iteration | Array                                   |
+| --------- | --------------------------------------- |
+| 1.        | [**99, 45**, 35, 40, 16, 50, 11, 7, 90] |
+| 2.        | [45, **99, 35**, 40, 16, 50, 11, 7, 90] |
+| 3.        | [45, 35, **99, 40**, 16, 50, 11, 7, 90] |
+| 4.        | [45, 35, 40, **99, 16**, 50, 11, 7, 90] |
+| 5.        | [45, 35, 40, 16, **99, 50**, 11, 7, 90] |
+| 6.        | [45, 35, 40, 16, 50, **99, 11**, 7, 90] |
+| 7.        | [45, 35, 40, 16, 50, 11, **99, 7**, 90] |
+| 8.        | [45, 35, 40, 16, 50, 11, 7, **99, 90**] |
+| 9.        | [45, 35, 40, 16, 50, 11, 7, 90, 99]     |
 
 As you can see, the largest element, 99 gets bubbled to the top. In subsequent iterations through the outer loop, the next largest values will get bubbled to the top the next i.e. *n-i-1* position with increasing values of *i*.
 
@@ -138,17 +138,17 @@ end
 
 **Example:** Consider the initial unsorted array [99, 45, 35, 40, 16, 50, 11, 7, 90]. Here's what it looks like before and after each iteration of the outer loop.
 
-| Iteration | Array | i | min_index
-|-- |-- |-- |-- |
-| 1. | [**99**, 45, 35, 40, 16, 50, 11, **7**, 90]  | *i=0* |  *min_index=7* |
-| 2. | [7, **45**, 35, 40, 16, 50, **11**, 99, 90] | *i=1* | min_index=6* |
-| 3. | [7, 11, **35**, 40, **16**, 50, 45, 99, 90] | *i=2* | *min_index=4* |
-| 4. | [7, 11, 16, **40**, **35**, 50, 45, 99, 90] | *i=3*  | *min_index=4* |
-| 5. | [7, 11, 16, 35, **40**, 50, 45, 99, 90] | *i=4* | *min_index=4* |
-| 6. | [7, 11, 16, 35, 40, **50**, **45**, 99, 90] | *i=5* | *min_index=6* |
-7. | [7, 11, 16, 35, 40, 45, **50**, 99, 90] |  *i=6* | *min_index=6* |
-8. | [7, 11, 16, 35, 40, 45, 50, **99**, **90**] | *i=7* | *min_index=8* |
-| 9. | [7, 11, 16, 35, 40, 45, 50, 90, 99] | *sorting complete* | |
+| Iteration | Array                                       | i                  | min_index     |
+| --------- | ------------------------------------------- | ------------------ | ------------- |
+| 1.        | [**99**, 45, 35, 40, 16, 50, 11, **7**, 90] | *i=0*              | *min_index=7* |
+| 2.        | [7, **45**, 35, 40, 16, 50, **11**, 99, 90] | *i=1*              | min_index=6*  |
+| 3.        | [7, 11, **35**, 40, **16**, 50, 45, 99, 90] | *i=2*              | *min_index=4* |
+| 4.        | [7, 11, 16, **40**, **35**, 50, 45, 99, 90] | *i=3*              | *min_index=4* |
+| 5.        | [7, 11, 16, 35, **40**, 50, 45, 99, 90]     | *i=4*              | *min_index=4* |
+| 6.        | [7, 11, 16, 35, 40, **50**, **45**, 99, 90] | *i=5*              | *min_index=6* |
+| 7.        | [7, 11, 16, 35, 40, 45, **50**, 99, 90]     | *i=6*              | *min_index=6* |
+| 8.        | [7, 11, 16, 35, 40, 45, 50, **99**, **90**] | *i=7*              | *min_index=8* |
+| 9.        | [7, 11, 16, 35, 40, 45, 50, 90, 99]         | *sorting complete* |               |
 
 **Analysis:** The time complexity of Selection sort is *O(n<sup>2</sup>)*. Each of the nested loops has an upper bound defined by the count of elements, *n* in the list to be sorted.
 
@@ -182,17 +182,17 @@ end
 
 **Example:** Consider the initial unsorted array [99, 45, 35, 40, 16, 50, 11, 7, 90]. Here's what it looks like before and after each iteration of the outer loop. The sorted sub-array is **bolded**
 
-| Iteration | Array |
-|-- |-- |
-| 1. | [**99**, 45, 35, 40, 16, 50, 11, 7, 90] |
-| 2. | [**45, 99**, 35, 40, 16, 50, 11, 7, 90] |
-| 3. | [**35, 45, 99**, 40, 16, 50, 11, 7, 90] |
-| 4. | [**35, 40, 45, 99**, 16, 50, 11, 7, 90] |
-| 5. | [**16, 35, 40, 45, 99**, 50, 11, 7, 90] |
-| 6. | [**16, 35, 40, 45, 50, 99**, 11, 7, 90] |
-| 7. | [**11, 16, 35, 40, 45, 50, 99**, 7, 90] |
-| 8. | [**7, 11, 16, 35, 40, 45, 50, 99**, 90] |
-| 9. | [**7, 11, 16, 35, 40, 45, 50, 90, 99**] |
+| Iteration | Array                                   |
+| --------- | --------------------------------------- |
+| 1.        | [**99**, 45, 35, 40, 16, 50, 11, 7, 90] |
+| 2.        | [**45, 99**, 35, 40, 16, 50, 11, 7, 90] |
+| 3.        | [**35, 45, 99**, 40, 16, 50, 11, 7, 90] |
+| 4.        | [**35, 40, 45, 99**, 16, 50, 11, 7, 90] |
+| 5.        | [**16, 35, 40, 45, 99**, 50, 11, 7, 90] |
+| 6.        | [**16, 35, 40, 45, 50, 99**, 11, 7, 90] |
+| 7.        | [**11, 16, 35, 40, 45, 50, 99**, 7, 90] |
+| 8.        | [**7, 11, 16, 35, 40, 45, 50, 99**, 90] |
+| 9.        | [**7, 11, 16, 35, 40, 45, 50, 90, 99**] |
 
 **Analysis:** In sorting the most expensive part is a comparison of two elements. Insertion sort algorithm requires
 
@@ -320,13 +320,13 @@ While `<=>` is a **ruby specific** method, many languages have similar methods t
 
 ## Terms
 
-| Term | Definition
-|--- |--- |
-| Sorting | Organizing a collection of elements into order. |
-| Internal Sorting | Sorting an entire array in memory. |
-| External Sorting | Sorting an array with part of the array on external storage, rather than internal memory. |
-| Recursive Algorithm | A method of solving a problem where the solution depends on solving smaller instances of the same problem.  This approach can be applied to many types of problems. |
-| Divide-And-Conquer Algorithm | A strategy of solving a big problem by breaking it into smaller more managable subproblems.  It can also lead to recursive solutions. |
+| Term                         | Definition                                                                                                                                                          |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sorting                      | Organizing a collection of elements into order.                                                                                                                     |
+| Internal Sorting             | Sorting an entire array in memory.                                                                                                                                  |
+| External Sorting             | Sorting an array with part of the array on external storage, rather than internal memory.                                                                           |
+| Recursive Algorithm          | A method of solving a problem where the solution depends on solving smaller instances of the same problem.  This approach can be applied to many types of problems. |
+| Divide-And-Conquer Algorithm | A strategy of solving a big problem by breaking it into smaller more managable subproblems.  It can also lead to recursive solutions.                               |
 
 
 
