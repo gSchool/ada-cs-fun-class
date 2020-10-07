@@ -94,6 +94,10 @@ Standards:
         Type: Checkpoint
         UID: cbb03443-697b-4740-8c0f-bb769b636463
         Path: /04-sorting/sorting-practice-checkpoint.md
+      -
+        Type: Lesson
+        UID: aa44cce5-0d5d-4177-a5ef-e3d342bac98b
+        Path: /04-sorting/sorting-questions.md
   -
     Title: Understanding Function Calls
     Description: How methods work
