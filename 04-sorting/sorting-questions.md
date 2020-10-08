@@ -85,8 +85,6 @@ def selection_sort(array, length)
 end
 ```
 
-![bubblesort](images/)
-
 In your own words describe how SelectionSort works
 
 ##### !end-question
