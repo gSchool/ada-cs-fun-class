@@ -124,3 +124,7 @@ Standards:
         Type: Lesson
         UID: b37ad5dc-1222-4318-99ea-dcec89cde55d
         Path: /06-recursion/introduction-to-recursion.md
+      -
+        Type: Lesson
+        UID: f9197ae8-f9e0-4f9a-9a28-381f462eef67
+        Path: /06-recursion/recursion.checkpoint.md
