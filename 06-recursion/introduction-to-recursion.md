@@ -331,8 +331,6 @@ If you want the solution you can take a look [at our example](recursion.resource
 
 ## Infinite Recursion
 
-
-
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
 
