@@ -1,4 +1,4 @@
-# Arrays Exercise
+# Sorting & Strings Exercise
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
