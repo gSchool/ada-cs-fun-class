@@ -6,7 +6,7 @@
 ### !challenge
 
 * type: testable-project
-* id: aa3ab1c3-1c4a-4438-8e90-0bff2560425f
+* id: cf1c9531-b726-4913-97be-77405ff4ac49
 * title: String Manipulation Practice
 * upstream: https://github.com/Ada-C14/recursion-writing
 * validate_fork: true
@@ -42,7 +42,7 @@ Link to your repository
 ### !challenge
 
 * type: short-answer
-* id: 33e4798d-a54c-42d3-8f4c-afe009ed0c60
+* id: 74d03b93-838f-40c0-81c4-7b4dbb651151
 * title: Link to your PR
 * points: 0
 * topics: sorting
