@@ -327,7 +327,7 @@ The recursive case is the section of code which would have the method call itsel
 
 **Write the recursive solution** 
 
-If you want the solution you can take a look [at our example](natural-numbers.resource.md).
+If you want the solution you can take a look [at our example](recursion.resource.md).
 
 ## Infinite Recursion
 
