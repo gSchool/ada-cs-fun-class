@@ -113,3 +113,14 @@ Standards:
         Type: Checkpoint
         UID: f99b4a60-f661-44bc-be1a-2079aec0752b
         Path: /05-function-calls/recursion-tracing.checkpoint.md
+  -
+    Title: Recursion
+    Description: Methods calling themselves
+    UID: f671bc78-2487-4754-b885-2b39fbdf706b
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: a322c264-0aa9-469a-a0f2-7d3b6f510b5f
+        Path: /06-recursion/introduction-to-recursion.md
