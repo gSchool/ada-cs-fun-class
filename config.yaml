@@ -113,6 +113,10 @@ Standards:
         Type: Checkpoint
         UID: f99b4a60-f661-44bc-be1a-2079aec0752b
         Path: /05-function-calls/recursion-tracing.checkpoint.md
+      -
+        Type: Resource
+        UID: 9abc1df2-7526-490a-909d-336144883015
+        Path: /05-function-calls/natural-sum.resource.md
   -
     Title: Recursion
     Description: Methods calling themselves
