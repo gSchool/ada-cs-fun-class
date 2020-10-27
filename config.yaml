@@ -166,3 +166,7 @@ Standards:
         Type: Lesson
         UID: 99d17dab-7fd3-4a55-95de-f4a75f3a0cdf
         Path: /08-interview-process/interview-introduction.md
+      -
+        Type: Resource
+        UID: e26b6b03-acda-498c-967d-0ae257128d51
+        Path: /08-interview-process/whiteboarding-tips.resource.md
