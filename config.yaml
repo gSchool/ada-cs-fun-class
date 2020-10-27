@@ -132,3 +132,7 @@ Standards:
         Type: Lesson
         UID: f9197ae8-f9e0-4f9a-9a28-381f462eef67
         Path: /06-recursion/recursion.checkpoint.md
+      -
+        Type: Resource
+        UID: 6d9f9059-3d8e-4361-98a0-76328c5137bf
+        Path: /06-recursion/recursion.resource.md
