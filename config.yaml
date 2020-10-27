@@ -136,3 +136,22 @@ Standards:
         Type: Resource
         UID: 6d9f9059-3d8e-4361-98a0-76328c5137bf
         Path: /06-recursion/recursion.resource.md
+  -
+    Title: Hash Tables
+    Description: A VERY practical Heuristic
+    UID: 06029b8d-dede-441c-9cd3-5a48abfaabfd
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: c3b8e39a-0947-4855-acb1-5038166fee5b
+        Path: /07-hash-tables/hash-tables.md
+      -
+        Type: Resource
+        UID: d29407aa-f1c3-4377-86df-cabb416c4644
+        Path: /07-hash-tables/hash.resource.md
+      -
+        Type: Checkpoint
+        UID: 7b1f858e-0338-46b2-9b32-fcbc6dccd639
+        Path: /07-hash-tables/hashmap.checkpoint.md
