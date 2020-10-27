@@ -155,3 +155,14 @@ Standards:
         Type: Checkpoint
         UID: 7b1f858e-0338-46b2-9b32-fcbc6dccd639
         Path: /07-hash-tables/hashmap.checkpoint.md
+  -
+    Title: Interview Process
+    Description: Technical Interviews
+    UID: f598dbb9-c4b3-42f6-8459-510d28ca34c1
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 99d17dab-7fd3-4a55-95de-f4a75f3a0cdf
+        Path: /08-interview-process/interview-introduction.md
