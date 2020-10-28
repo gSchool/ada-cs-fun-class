@@ -170,3 +170,7 @@ Standards:
         Type: Resource
         UID: e26b6b03-acda-498c-967d-0ae257128d51
         Path: /08-interview-process/whiteboarding-tips.resource.md
+      -
+        Type: Lesson
+        UID: 63d24fbb-dcae-4047-9576-601b16fe4a75
+        Path: /08-interview-process/whiteboard-recording.md
