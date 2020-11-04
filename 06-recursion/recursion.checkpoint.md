@@ -10,7 +10,7 @@
 * title: String Manipulation Practice
 * upstream: https://github.com/Ada-C14/recursion-writing
 * validate_fork: true
-* points: 2
+* points: 1
 * topics: sorting
 
 ##### !question
@@ -44,7 +44,7 @@ Link to your repository
 * type: short-answer
 * id: 74d03b93-838f-40c0-81c4-7b4dbb651151
 * title: Link to your PR
-* points: 0
+* points: 3
 * topics: sorting
 
 ##### !question
