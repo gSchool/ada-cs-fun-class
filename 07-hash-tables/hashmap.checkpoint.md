@@ -10,7 +10,7 @@
 * title: In this set of exercises you will practice solving interview-style questions using hashes.
 * upstream: https://github.com/Ada-C14/Hashmap
 * validate_fork: true
-* points: 2
+* points: 0
 * topics: hash, interview
 
 ##### !question
@@ -44,7 +44,7 @@ Link to your repository
 * type: short-answer
 * id: d8e592cf-a0ef-4c70-8564-9cb2c06d1ad3
 * title: Link to your PR
-* points: 0
+* points: 2
 * topics: hash, interview
 
 ##### !question
