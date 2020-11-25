@@ -27,6 +27,8 @@ Input: nums = [1,2,3,1,2,3], k = 2
 Output: false
 ```
 
+**You can see an answer to the problem [here](interview_question_answer.resource.md).**
+
 ## Interview Evaluation Forms
 
 ### Candidate #1 - Jasmine
@@ -365,3 +367,4 @@ Hiring recommendation
 ### !end-challenge
 
 <!-- ======================= END CHALLENGE ======================= -->
+
