@@ -7,170 +7,178 @@
 
 ---
 Standards:
-  -
+  - 
     Title: About CS Fundamentals
     Description: Syllabus & Schedule
     UID: 8d0957bb-a08a-4b55-9d3e-8fcd2a6c2933
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: 5dda9b6f-e6ca-4c7b-b0aa-bb00d0e9f115
         Path: /00-about-cs-fun/about-cs-fun.md
-      -
+      - 
         Type: Lesson
         UID: b7cdf127-99d4-40cc-be57-0ca6b086f4ff
         Path: /00-about-cs-fun/cs-fun-schedule.md
-  -
+  - 
     Title: Binary Numbers
     Description: Binary Numbers
     UID: 7985c55db967192267ccd8c6db86d270
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: a6af8fa6bab71c8b803ecaf34e0984c1
         Path: /01-binary-numbers/01-binary-numbers.md
-      -
+      - 
         Type: Checkpoint
         UID: 45f708d7a65ca33c0e8e298ae804f9bd
         Path: /01-binary-numbers/02-binary-numbers-checkpoint.md
-  -
+  - 
     Title: Arrays
     Description: Arrays and Algorithmic Efficiency
     UID: ff43b8de4f41d5103405ddb62eb8d34e
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: ece6a3da4a290866251b1bd78d1dbb37
         Path: /02-arrays-and-efficiency/01-arrays.md
-      -
+      - 
         Type: Checkpoint
         UID: b3e5030f89373dae804212918d12cf94
         Path: /02-arrays-and-efficiency/02-arrays-checkpoint.md
-      -
+      - 
         Type: Lesson
         UID: 7c8ff3f2-77b1-4862-88c5-81a849ecd000
         Path: /02-arrays-and-efficiency/03-efficiency.md
-      -
+      - 
         Type: Lesson
         UID: b7d3c79c-ca91-4819-bac9-f89a4debab30
         Path: /02-arrays-and-efficiency/04-time-complexity-quiz.md
-  -
+  - 
     Title: Data Structures
     Description: Ways to organize Data
     UID: 1c1069b6-abb9-45d1-8b82-8d60c2ac1581
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: afca0c37-96c1-4e88-96a0-75c3cf7b56bf
         Path: /03-data-structures/data-structures.md
-      -
+      - 
         Type: Lesson
         UID: 9778eee8-ce44-4f35-a378-0a099f4a2978
         Path: /03-data-structures/data-structures-quiz.md
-      -
+      - 
         Type: Checkpoint
         UID: c08d3762-a698-4a0b-9ff3-e341bb131cd4
         Path: /03-data-structures/02-data-structures-checkpoint.md
-  -
+  - 
     Title: Sorting
     Description: Putting Arrays in Order
     UID: 92315227-a3d4-4183-96e0-55f73370ea01
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: f0467e93-fee5-4e8e-a4f8-a99f4761dd2b
         Path: /04-sorting/sorting.md
-      -
+      - 
         Type: Checkpoint
         UID: cbb03443-697b-4740-8c0f-bb769b636463
         Path: /04-sorting/sorting-practice-checkpoint.md
-      -
+      - 
         Type: Lesson
         UID: aa44cce5-0d5d-4177-a5ef-e3d342bac98b
         Path: /04-sorting/sorting-questions.md
-  -
+  - 
     Title: Understanding Function Calls
     Description: How methods work
     UID: b21a6a74-4e9e-4993-a3fd-9def3baa7d80
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: a322c264-0aa9-469a-a0f2-7d3b6f510b5f
         Path: /05-function-calls/function-calls.md
-      -
+      - 
         Type: Checkpoint
         UID: f99b4a60-f661-44bc-be1a-2079aec0752b
         Path: /05-function-calls/recursion-tracing.checkpoint.md
-      -
+      - 
         Type: Resource
         UID: 9abc1df2-7526-490a-909d-336144883015
         Path: /05-function-calls/natural-sum.resource.md
-  -
+  - 
     Title: Recursion
     Description: Methods calling themselves
     UID: f671bc78-2487-4754-b885-2b39fbdf706b
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: b37ad5dc-1222-4318-99ea-dcec89cde55d
         Path: /06-recursion/introduction-to-recursion.md
-      -
+      - 
         Type: Lesson
         UID: f9197ae8-f9e0-4f9a-9a28-381f462eef67
         Path: /06-recursion/recursion.checkpoint.md
-      -
+      - 
         Type: Resource
         UID: 6d9f9059-3d8e-4361-98a0-76328c5137bf
         Path: /06-recursion/recursion.resource.md
-  -
+  - 
     Title: Hash Tables
     Description: A VERY practical Heuristic
     UID: 06029b8d-dede-441c-9cd3-5a48abfaabfd
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: c3b8e39a-0947-4855-acb1-5038166fee5b
         Path: /07-hash-tables/hash-tables.md
-      -
+      - 
         Type: Resource
         UID: d29407aa-f1c3-4377-86df-cabb416c4644
         Path: /07-hash-tables/hash.resource.md
-      -
+      - 
         Type: Checkpoint
         UID: 7b1f858e-0338-46b2-9b32-fcbc6dccd639
         Path: /07-hash-tables/hashmap.checkpoint.md
-  -
+  - 
     Title: Interview Process
     Description: Technical Interviews
     UID: f598dbb9-c4b3-42f6-8459-510d28ca34c1
     SuccessCriteria:
       - success criteria
     ContentFiles:
-      -
+      - 
         Type: Lesson
         UID: 99d17dab-7fd3-4a55-95de-f4a75f3a0cdf
         Path: /08-interview-process/interview-introduction.md
-      -
+      - 
         Type: Resource
         UID: e26b6b03-acda-498c-967d-0ae257128d51
         Path: /08-interview-process/whiteboarding-tips.resource.md
-      -
+      - 
         Type: Lesson
         UID: 63d24fbb-dcae-4047-9576-601b16fe4a75
         Path: /08-interview-process/whiteboard-recording.md
+      - 
+        Type: Checkpoint
+        UID: f76a7064-2c96-4282-a550-8d37e3dd2951
+        Path: /08-interview-process/demo-interview.checkpoint.md
+      -
+        Type: Resource
+        UID: 3aaaa6c2-8bd9-4798-b449-7a0ef15ab92b
+        Path: /08-interview-process/interview_question_answer.resource.md
