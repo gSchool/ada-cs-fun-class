@@ -174,10 +174,6 @@ Standards:
         Type: Lesson
         UID: 63d24fbb-dcae-4047-9576-601b16fe4a75
         Path: /08-interview-process/whiteboard-recording.md
-      - 
-        Type: Checkpoint
-        UID: f76a7064-2c96-4282-a550-8d37e3dd2951
-        Path: /08-interview-process/demo-interview.checkpoint.md
       -
         Type: Resource
         UID: 3aaaa6c2-8bd9-4798-b449-7a0ef15ab92b
