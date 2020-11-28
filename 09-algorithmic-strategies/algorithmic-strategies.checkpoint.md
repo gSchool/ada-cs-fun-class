@@ -1,4 +1,6 @@
-# Recursion Writing
+# Dynamic Programming Exercise
+
+In this exercise you will practice using Dynamic programming on two sample exercises.
 
 <!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
 <!-- Replace everything in square brackets [] and remove brackets  -->
@@ -6,24 +8,22 @@
 ### !challenge
 
 * type: testable-project
-* id: cf1c9531-b726-4913-97be-77405ff4ac49
-* title: Recursion Writing
-* upstream: https://github.com/Ada-C14/recursion-writing
-* validate_fork: false
-* points: 1
-* topics: recursion
+* id: 8f7de51e-66c8-4f91-88f0-5e9dd7d5bee9
+* title: Dynamic Programming Exercise 1
+* upstream: https://github.com/Ada-C14/recursive-dynamic-programming
+* validate_fork: true
+* points: 3
+* topics: recursion, dynamic programming
 
 ##### !question
 
-For the https://github.com/Ada-C14/recursion-writing and complete as many of the recursive methods as you can.  
-
-Timebox yourself to no more than 3 hours on this.
+Fork the [repository](https://github.com/Ada-C14/recursive-dynamic-programming) and clone it.  Complete the two methods, Improved Fibonnacci and Superdigit and then submit your repository link here.
 
 ##### !end-question
 
 ##### !placeholder
 
-Link to your repository
+Your repo link goes here (not the PR).
 
 ##### !end-placeholder
 
@@ -42,20 +42,20 @@ Link to your repository
 ### !challenge
 
 * type: short-answer
-* id: 74d03b93-838f-40c0-81c4-7b4dbb651151
-* title: Link to your PR
+* id: 3506628f-2b20-49bb-93ed-34ba8b35013b
+* title: Dynamic Programming Pull Request
 * points: 3
-* topics: recursion
+* topics: recursion, dynamic programming
 
 ##### !question
 
-Create a pull request to https://github.com/Ada-C14/recursion-writing and copy the url to this question.
+Please submit your pull request here.
 
 ##### !end-question
 
 ##### !placeholder
 
-Link to PR
+Place your project PR here.
 
 ##### !end-placeholder
 
