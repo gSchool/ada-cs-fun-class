@@ -154,7 +154,7 @@ Lastly since found is true, it does not print "Didn't find it".
 ### !challenge
 
 * type: short-answer
-* id: 8dee160f-beaa-45ad-8528-ce21689aef54
+* id: 200529bd-04e8-4752-92eb-7070ce106a02
 * title: Linked List Questions #2
 * points: 1
 * topics: linked-lists
@@ -375,6 +375,10 @@ In Ruby the Ruby interpreter handles memory management.  In lower level language
 ### Memory Leaks
 
 A **Memory Leak** is the result of a program incorrectly managing memory.  **Memory leaks happen when memory which is no longer needed is not released by the program.** Typically this is the result of dynamically allocated memory becoming unreachable.  This results in that memory not being available to any other programs running on the system.  If the program causing the memory leak is a long running process (like a daemon or a service) and uses more and more memory (and leaks it) over time, the system may run out of memory eventually, causing the application to crash.
+
+## Learning Comprehension Questions
+
+
 
 ## Summary
 
