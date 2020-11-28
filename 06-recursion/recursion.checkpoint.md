@@ -7,7 +7,7 @@
 
 * type: testable-project
 * id: cf1c9531-b726-4913-97be-77405ff4ac49
-* title: String Manipulation Practice
+* title: Recursion Writing
 * upstream: https://github.com/Ada-C14/recursion-writing
 * validate_fork: false
 * points: 1
