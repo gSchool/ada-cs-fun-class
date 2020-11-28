@@ -172,7 +172,8 @@ Does the linked list change?
 
 ##### !answer
 
-/Didn\'t find it/
+/(no)|(nope)|n/
+
 ##### !end-answer
 
 <!-- other optional sections -->
@@ -214,7 +215,7 @@ What if current.data == "d" is changed to current.data == "f"
 
 ##### !answer
 
-
+/Didn\'t find it/
 
 ##### !end-answer
 
