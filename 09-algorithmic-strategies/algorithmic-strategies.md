@@ -128,6 +128,8 @@ For small arrays insertion sort performs better than merge sort, but as the size
 
 ### Exercise - Merging Two Sorted Arrays
 
+[To be worked on together in repl.it](https://repl.it/@ChrisMcAnally/MergeSortedArrays#main.rb)
+
 Given two sorted integer arrays nums1 and nums2, merge nums2 into nums1 as one sorted array.
 
 **Note:**
