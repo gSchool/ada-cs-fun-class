@@ -178,3 +178,18 @@ Standards:
         Type: Resource
         UID: 3aaaa6c2-8bd9-4798-b449-7a0ef15ab92b
         Path: /08-interview-process/interview_question_answer.resource.md
+  - 
+    Title: Programming Strategies
+    Description: Divide & Conquer & Dynamic Programming
+    UID: a327f5e3-86ac-4b90-bd5d-e7930c48cb78
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 70aa073d-b99e-4b0a-bad9-77ec6b4bbe4d
+        Path: /09-algorithmic-strategies/algorithmic-strategies.md
+      -
+        Type: Checkpoint
+        UID: 9381504b-0bb8-4050-8ad8-a759d9374a59
+        Path: /09-algorithmic-strategies/algorithmic-strategies.checkpoint.md        
