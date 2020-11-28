@@ -193,3 +193,19 @@ Standards:
         Type: Checkpoint
         UID: 9381504b-0bb8-4050-8ad8-a759d9374a59
         Path: /09-algorithmic-strategies/algorithmic-strategies.checkpoint.md        
+  - 
+    Title: Linked Lists
+    Description: A Chained list of nodes
+    UID: 7a0111ec-600d-4119-a36e-5afcf5915917
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: ea303a36-4a6c-4a74-87f3-35482b4a74e1
+        Path: /10-linked-lists/linked-lists.md
+      -
+        Type: Checkpoint
+        UID: deace0d3-e44a-4e60-a9e4-4d2d98d67db0
+        Path: /10-linked-lists/linked-lists.checkpoint.md    
+      
