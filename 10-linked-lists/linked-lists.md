@@ -104,11 +104,133 @@ end
 puts "Didn't find it" unless found
 ```
 
-**Questions:**
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
-1.  What does the above code segment result in?
-2.  Does the above code change the linked list?
-3.  What happens if `current.data == "d"` is changed to `current.data == "f"`?
+### !challenge
+
+* type: short-answer
+* id: 23aff70a-2b08-420f-95cf-fb39682574cc
+* title: Linked Lists Questions #1
+* points: 1
+* topics: linked-lists
+
+##### !question
+
+What does the above code segment result in?
+
+##### !end-question
+
+##### !placeholder
+
+What text is printed?
+
+##### !end-placeholder
+
+##### !answer
+
+/Found it\!/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+The first time the loop executes `current.data` is equal to `"e"`, so the if statement is false.  Then `current` is set to `current.next`.  In the next iteration `current.data` is equal to `"d"`, so the if statement is true and it prints "Found it!". Then the loop continues until current is nil.
+
+Lastly since found is true, it does not print "Didn't find it".
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 8dee160f-beaa-45ad-8528-ce21689aef54
+* title: Linked List Questions #2
+* points: 1
+* topics: linked-lists
+
+##### !question
+
+Does the above code change the linked list?
+##### !end-question
+
+##### !placeholder
+
+Does the linked list change?
+
+##### !end-placeholder
+
+##### !answer
+
+/Didn\'t find it/
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+Since the value isn't in the list `found` is never set to true and so it prints "Didn't find it".
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 8dee160f-beaa-45ad-8528-ce21689aef54
+* title: Linked List Questions #3
+* points: 1
+* topics: linked-lists
+
+##### !question
+
+What happens if `current.data == "d"` is changed to `current.data == "f"`?
+
+What gets printed?
+##### !end-question
+
+##### !placeholder
+
+What if current.data == "d" is changed to current.data == "f"
+
+##### !end-placeholder
+
+##### !answer
+
+
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+This code doesn't change `head` nor does it change any of the internal links in the list, so no it does not change the list.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
 
 
 ## Linked Lists vs Arrays
