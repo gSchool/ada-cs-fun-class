@@ -256,6 +256,10 @@ A Linked List can also be effective if memory is highly fragmented and there is 
 
 ![fragmented memory illustration](images/fragmented-memory.png)
 
+### On the other hand...
+
+With arrays you can jump to any element in the list with O(1) time because the elements are contiguous.  Further, because the memory is all together the operating system and CPU can often transfer the entire, or a great deal of an Array data structure as a block to the disk drive or accross the network.
+
 ### Big-O of Common Array & Linked List Operations
 
 | Operation 	| Arrays 	| Linked Lists 	|
