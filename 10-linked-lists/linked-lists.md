@@ -383,7 +383,140 @@ A **Memory Leak** is the result of a program incorrectly managing memory.  **Mem
 
 ## Learning Comprehension Questions
 
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
 
+### !challenge
+
+* type: short-answer
+* id: c5d3dea2-3240-4eaa-a4f2-2ab26d4fabe7
+* title: Arrays vs Linked Lists
+* points: 1
+* topics: linked-lists
+
+##### !question
+
+What are some advantages Linked Lists have over Arrays?
+
+##### !end-question
+
+##### !placeholder
+
+Advantages of Linked Lists
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+- Linked lists do need contiguous memory, so you can allocate them with fragmented memory.
+- Linked lists can use less memory because they only allocate the memory they are using, an array often has unused elements at the end of the array.
+- LinkedLists are also quick to insert/delete to the front and rear of the list.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: short-answer
+* id: 4a7bb9b8-db5e-48ed-9f33-828d273e40db
+* title: Arrays vs Linked Lists #2
+* points: 1
+* topics: linked-lists
+
+##### !question
+
+What are some advantages Arrays over linked lists?
+
+##### !end-question
+
+##### !placeholder
+
+Advantages of Arrays
+
+##### !end-placeholder
+
+##### !answer
+
+/.+/
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+With an array:
+
+- You can jump to an element by the index number in O(1) time (because the elements are contiguous).
+- Arrays can also be transferred as a block to other devices like the disk drive or network device because the elements are contiguous.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
+
+<!-- >>>>>>>>>>>>>>>>>>>>>> BEGIN CHALLENGE >>>>>>>>>>>>>>>>>>>>>> -->
+<!-- Replace everything in square brackets [] and remove brackets  -->
+
+### !challenge
+
+* type: multiple-choice
+* id: c558549b-22c2-4fb4-89f2-892a95c3c15e
+* title: Linked lists find question
+* points: 1
+* topics: linked lists
+
+##### !question
+
+What is the time complexity to get the middle element of a Linked List?
+
+##### !end-question
+
+##### !options
+
+* O(1)
+* O(log n)
+* O(n)
+* O(n^2)
+* O(2^n)
+
+##### !end-options
+
+##### !answer
+
+* O(n)
+
+##### !end-answer
+
+<!-- other optional sections -->
+<!-- !hint - !end-hint (markdown, users can see after a failed attempt) -->
+<!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
+##### !explanation
+
+In a linked list to find the middle element you must start at the beginning (or rear in a doubly linked list would work) and traverse the length/2 nodes until you find it.  You **cannot** just jump to a specific element the way you can in an array.
+
+##### !end-explanation
+
+### !end-challenge
+
+<!-- ======================= END CHALLENGE ======================= -->
 
 ## Summary
 
