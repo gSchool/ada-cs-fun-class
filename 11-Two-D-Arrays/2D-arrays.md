@@ -195,7 +195,11 @@ Syntactically the only difference is another set of `[]` for each additional dim
 
 ## Summary
 
-In this lesson we investigated multi-dimensional arrays.
+In this lesson we investigated multi-dimensional arrays.  A 2D array is an array where each element is also an array.  We can visually draw a 2D array as a grid.  By convention the first subscript is used to indicate the row in the drawn grid and the 2nd subscript indicates the column.  A 2D array is often called a _matrix_.  
+
+In C/C++ a 2D array of primitives are stored in memory as one long contiguous array where each row is next to it's neighboring row.  In Ruby & Java the 2D array is represented as a set of references to arrays in memory.
+
+When traversing a 2D array we normally use nested loops, one for the row and the other for the column.  It is important to note that the length of each row does not have to be the same, although that will often be the case.  2D arrays with irregularly long rows are called _jagged arrays_.
 
 ## Resources
 
