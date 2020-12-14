@@ -1,5 +1,7 @@
 # 2D Arrays
 
+<iframe src="https://adaacademy.hosted.panopto.com/Panopto/Pages/Embed.aspx?id=26bd0aa1-ac58-4c03-a131-ac91003e9468&autoplay=false&offerviewer=true&showtitle=true&showbrand=false&start=0&interactivity=all" height="405" width="720" style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+
 ## Learning Goals
 
 By the end of this lesson we will be able to...
@@ -12,7 +14,7 @@ By the end of this lesson we will be able to...
 ## Slides Project & Video
 
 - [Slides](https://docs.google.com/presentation/d/13INdagN-_y6RDfMluEH4bLTneK4J1A0KwB_VYWX-9pI/edit?usp=sharing)
-- [Video Lesson]()
+- [Video Lesson](https://adaacademy.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=26bd0aa1-ac58-4c03-a131-ac91003e9468)
 - [Project - Hourglass Sum](https://github.com/ada-c14/2D-Arrays-Hourglass-Problem)
 
 ## Overview

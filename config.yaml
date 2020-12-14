@@ -208,4 +208,19 @@ Standards:
         Type: Checkpoint
         UID: deace0d3-e44a-4e60-a9e4-4d2d98d67db0
         Path: /10-linked-lists/linked-lists.checkpoint.md    
+  - 
+    Title: 2D Arrays
+    Description: An Array of Arrays
+    UID: f8e3ec4f-1904-47d6-9e80-eb3eaa554ca8
+    SuccessCriteria:
+      - success criteria
+    ContentFiles:
+      -
+        Type: Lesson
+        UID: 5382deb7-7391-4c81-af66-5e66f021c14a
+        Path: /11-Two-D-Arrays/2D-arrays.md
+      -
+        Type: Checkpoint
+        UID: 08ba27fc-4296-4de6-a1a3-b56b2a7a8d6f
+        Path: /11-Two-D-Arrays/2D-arrays.checkpoint.md   
       
