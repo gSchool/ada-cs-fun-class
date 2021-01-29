@@ -181,7 +181,7 @@ Does the linked list change?
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-Since the value isn't in the list `found` is never set to true and so it prints "Didn't find it".
+This code doesn't change `head` nor does it change any of the internal links in the list, so no it does not change the list.
 
 ##### !end-explanation
 
@@ -224,7 +224,7 @@ What if current.data == "d" is changed to current.data == "f"
 <!-- !rubric - !end-rubric (markdown, instructors can see while scoring a checkpoint) -->
 ##### !explanation
 
-This code doesn't change `head` nor does it change any of the internal links in the list, so no it does not change the list.
+Since the value isn't in the list `found` is never set to true and so it prints "Didn't find it".
 
 ##### !end-explanation
 
